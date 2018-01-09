@@ -5,8 +5,7 @@ var bigDinosaur = dinosaur.toUpperCase();
 alert(bigDinosaur);
 var textAfterchange = text.replace('Velociraptor', bigDinosaur);
 var whereCuttext = textAfterchange.length/2;
-alert(whereCuttext);
-var firstHalf = textAfterchange.slice(0,72);
+var firstHalf = textAfterchange.slice(0,whereCuttext);
 alert(firstHalf); 
 
 
